@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSERVICE", "WSERVICE\WSERVICE.csproj", "{EAD9F6DC-D35F-44A8-9B5E-6EDDEEDFD143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SITIOWEB", "SITIOWEB\SITIOWEB.csproj", "{87F9A6DB-5A11-4C04-9164-96CCB5D352BE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EAD9F6DC-D35F-44A8-9B5E-6EDDEEDFD143} = {EAD9F6DC-D35F-44A8-9B5E-6EDDEEDFD143}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAD9F6DC-D35F-44A8-9B5E-6EDDEEDFD143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD9F6DC-D35F-44A8-9B5E-6EDDEEDFD143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD9F6DC-D35F-44A8-9B5E-6EDDEEDFD143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD9F6DC-D35F-44A8-9B5E-6EDDEEDFD143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F9A6DB-5A11-4C04-9164-96CCB5D352BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F9A6DB-5A11-4C04-9164-96CCB5D352BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F9A6DB-5A11-4C04-9164-96CCB5D352BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F9A6DB-5A11-4C04-9164-96CCB5D352BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A60C38B0-E77F-43DA-A7BC-9041026CD5C2}
+	EndGlobalSection
+EndGlobal
